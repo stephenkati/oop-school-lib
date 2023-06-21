@@ -124,7 +124,7 @@ def student_teacher
     puts "#{student.id} - Name: #{student.name}, Age: #{student.age}"
   end
   Infor.teachers.each do |teacher|
-    puts "#{teacher.id + Infor.students.length} - Name: #{teacher.name}, Age: #{teacher.age}"
+    puts "#{teacher.id} - Name: #{teacher.name}, Age: #{teacher.age}"
   end
 end
 
@@ -139,7 +139,7 @@ def new_rental
              Infor.teachers[person_index - Infor.students.length]
            end
 
-  puts person
+  puts person.name
 
   puts 'Choose a book from the list below by number:'
   Infor.books.each_with_index do |book, index|
