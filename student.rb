@@ -15,7 +15,6 @@ class Student < Person
     of_age? || parent_permission
   end
 
-
   def play_hooky
     '¯\\(ツ)/¯'
   end
