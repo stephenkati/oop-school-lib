@@ -8,6 +8,6 @@ class Book
   end
 
   def rentals_list
-    Data.rentals.select { |rental| rental.book == self }
+    Infor.rentals.select { |rental| rental.book == self }
   end
 end
