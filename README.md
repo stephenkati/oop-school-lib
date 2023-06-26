@@ -20,7 +20,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -108,8 +107,14 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
- *[STEPHEN KATULI]*
+👤 **STEPHEN KATULI**
+ 
+- GitHub: [@ehmaddd](https://github.com/ehmaddd/)
+- LinkedIn: [@ehmaddd](https://www.linkedin.com/in/ehmaddd/)
+- Twitter: [@ehmaddd_pk](https://twitter.com/ehmaddd_pk)
+
+
+👤 **AHMAD SAEED**
  
 - GitHub: [@githubhandle](https://github.com/stephenkati)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/stephen-katuli/)
