@@ -14,12 +14,4 @@ class Teacher < Person
   def can_use_services?
     true
   end
-
-  def add_rental(rental)
-    rentals << rental
-  end
-
-  def remove_rental(rental)
-    rentals.delete(rental)
-  end
 end
