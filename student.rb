@@ -15,18 +15,6 @@ class Student < Person
     of_age? || parent_permission
   end
 
-  def play_hooky
-    '¯\\(ツ)/¯'
-  end
-
-  def add_rental(rental)
-    rentals << rental
-  end
-
-  def remove_rental(rental)
-    rentals.delete(rental)
-  end
-
   private
 
   def of_age?
