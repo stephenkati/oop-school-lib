@@ -21,6 +21,16 @@ class Person < Nameable
     @name
   end
 
+  def to_hash
+    {
+      id: @id,
+      age: @age,
+      name: @name,
+      parent_permission: @parent_permission,
+      rentals: @rentals.map(&:to_hash)
+    }
+  end
+
   private
 
   def of_age?
