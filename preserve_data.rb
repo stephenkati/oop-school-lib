@@ -14,7 +14,8 @@ def file_read(file)
 end
 
 def file_write(file, content)
-  hashed_content = content.map(&:to_hash)
-  json = JSON.generate(hashed_content)
+  existing_data = file_read(file)
+  all_data = existing_data + content.map(&:to_hash)
+  json = JSON.generate(all_data)
   File.write(file, json)
 end
