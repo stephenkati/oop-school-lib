@@ -3,7 +3,7 @@ require './teacher'
 describe Teacher do
   context 'When testing teacher class' do
     before :all do
-      @teacher = Teacher.new(44, 'Mwangi', 'Swimming')
+      @teacher = Teacher.new(44, 'Swimming', name: 'Mwangi')
     end
 
     it 'should have age, name, specialization, parent_permission, rentals' do

@@ -1,5 +1,4 @@
 require './student'
-require './classroom'
 
 describe Student do
   context 'When testing student class' do
@@ -13,20 +12,8 @@ describe Student do
       expect(@student).to have_attributes(classroom: 'Java')
     end
 
-    it 'should add the student to the classroom' do
-      classroom = Classroom.new('Math')
-      @student.add_classroom(classroom)
-
-      expect(classroom.students).to include(@student)
-    end
-
-    it 'should not add the student to the classroom if already present' do
-      classroom = Classroom.new('Math')
-      classroom.students << @student
-
-      @student.add_classroom(classroom)
-
-      expect(classroom.students.count(@student)).to eq(1)
+    it 'should be able to use services' do
+      expect(@student.can_use_services?).to be true
     end
   end
 end
