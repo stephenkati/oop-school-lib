@@ -8,7 +8,7 @@ class Book
   end
 
   def rentals_list
-    Infor.rentals.select { |rental| rental.book == self }
+    @rentals.select { |rental| rental.book == self }
   end
 
   def to_hash
